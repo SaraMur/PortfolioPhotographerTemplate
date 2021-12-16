@@ -20,9 +20,9 @@
     background-color: none;
     text-align: right;
     text-decoration: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: flex-end;
+    margin-top: 7%;
 }
 
 nav ul{
@@ -36,10 +36,18 @@ nav, li, a.button-nav{
     display: list-item;
     text-decoration: none;
     font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     padding: 0.1em 1em;
-    color: white;
+    color: #444037;
     
   }
 
-  
+  nav ul li a:hover{
+    background-color: #444037;
+    color: antiquewhite;
+
+  }
+
+  #name-presentation-text {
+    font-family: 'Smooch', cursive;
+  }

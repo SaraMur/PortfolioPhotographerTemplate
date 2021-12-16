@@ -15,6 +15,13 @@
  margin: 2%;
 }
 
+.gallery:hover {
+  -webkit-transition:all .1s ease; 
+  -moz-transition:all .1s ease;
+  -o-transition:all .1s ease; 
+  -ms-transition:all .1s ease; 
+  width:100%;
+}
 
 .row {
     display: flex;
@@ -34,6 +41,15 @@
     width: 100%;
   }
   
+  .column:hover  {
+    -webkit-transform:scale(1.25)
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+  }
+
+
   @media screen and (max-width: 800px) {
     .column {
       flex: 50%;
